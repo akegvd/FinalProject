@@ -53,9 +53,9 @@ export class Todo extends Component {
                       onChange={this.handleChangeText} 
                       value={this.state.inputText}
                       onKeyPress={this.handleKeyPress}
-                      placeholder="Please enter a word" />
+                      placeholder="Fill a Todo list." />
               <InputGroupButton>
-                <Button onClick={this.submitList}>Submit</Button>
+                <Button onClick={this.submitList}>Add</Button>
               </InputGroupButton>
             </InputGroup>
             <br />
